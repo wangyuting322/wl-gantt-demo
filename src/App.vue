@@ -4,11 +4,17 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
+.wl-gantt .red-item .wl-item-on {
+  background-color: #f56c6c !important;
+}
+.wl-gantt .green-item .wl-item-on {
+  background-color: #67c23a !important;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

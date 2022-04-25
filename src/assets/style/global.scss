@@ -1,0 +1,44 @@
+.wl-gantt .red-item .wl-item-on {
+  background-color: #f56c6c !important;
+}
+.wl-gantt .green-item .wl-item-on {
+  background-color: #67c23a !important;
+}
+.wl-gantt .orange-item .wl-item-on {
+  background-color: #e6a23c !important;
+}
+.wl-gantt .red-item .wl-item-end:after {
+  border-color: transparent #f56c6c;
+  border-width: 0 6px 6px 0;
+  border-style: solid;
+}
+.wl-gantt .green-item .wl-item-end:after {
+  border-color: transparent #67c23a;
+  border-width: 0 6px 6px 0;
+  border-style: solid;
+}
+.wl-gantt .orange-item .wl-item-end:after {
+  border-color: transparent #e6a23c;
+  border-width: 0 6px 6px 0;
+  border-style: solid;
+}
+.wl-gantt .red-item .wl-item-start:after {
+  border-color: #f56c6c transparent transparent;
+}
+.wl-gantt .green-item .wl-item-start:after {
+  border-color: #67c23a transparent transparent;
+}
+.wl-gantt .orange-item .wl-item-start:after {
+  border-color: #e6a23c transparent transparent;
+}
+// 名称列
+.wl-gantt .name-col:hover .name-col-edit {
+  display: none;
+}
+.el-table__row:hover .name-col-edit {
+  display: none;
+}
+
+.menu-liet {
+  padding: 0px !important;
+}
